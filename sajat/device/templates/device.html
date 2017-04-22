@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{ title }}</title>
+</head>
+<body>
+
+<p> {{ ad.name }} {{ad.description}} </p>
+<p>
+	{% for key, value in ad.items %}
+    	{{ key }} : {{ value }} <br>
+	{% endfor %}
+</p>
+
+</body>
+</html>
